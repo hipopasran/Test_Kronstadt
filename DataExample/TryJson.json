@@ -1,0 +1,57 @@
+{
+    "Stations":[
+        {"Id": 1},
+        {"Id": 2},
+        {"Id": 3},
+        {"Id": 4}
+    ],
+    "Paths":[
+        {
+            "length": 1,
+            "firstStationId": 1,
+            "secondStationId": 2
+        },
+        {
+            "length": 1,
+            
+            "firstStationId": 2,
+            "secondStationId": 3
+        },
+        {
+            "length": 1,
+            "firstStationId": 3,
+            "secondStationId": 4
+        },
+        {
+            "length": 1,
+            "firstStationId": 4,
+            "secondStationId": 1
+        },
+        {
+            "length": 1,
+            "firstStationId": 4,
+            "secondStationId": 2
+        }
+    ],
+    "Trains":[
+        {
+            "Route":[
+                1, 
+                2,
+                3
+            ]
+        },
+        {
+            "Route":[
+                4,
+                1
+            ]
+        },
+        {
+            "Route":[
+                2, 
+                3
+            ]
+        }
+    ]
+}
